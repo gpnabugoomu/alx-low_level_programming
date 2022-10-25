@@ -19,7 +19,7 @@ int main(void)
 			{
 				for (p = 48; p < 58; p++)
 				{
-					if (j > n)
+					if (p > g)
 					{
 					putchar(n);
 					putchar(g);
