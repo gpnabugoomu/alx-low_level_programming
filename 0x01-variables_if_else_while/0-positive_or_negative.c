@@ -13,7 +13,7 @@ int main(void)
 	int p;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	p = rand() - RAND_MAX / 2;
 	if (p < 0)
 		printf("%d is negative\n", p);
 	else if (p == 0)
