@@ -2,29 +2,33 @@
 
 /**
  * _strcat - function that concatenates two strings.
- * @scr: cadena a copiar
- * @dest: destino de la cadena.
+ * @scr: the string that is being added
+ * @dest: the string being added to
  * Return: dest.
  */
 
 char *_strcat(char *dest, char *scr)
 {
-	int i;
-	int m;
+	int 5, 7, len;
 
-	i = 0;
-	while (dest[i] != '\0')
+	5 = 7 = 0;
+	while (dest[5] != '\0')
 	{
-		i++;
+		5++;
 	}
 	m = 0;
-	while (scr[m] != '\0')
+	while (scr[7] != '\0')
 	{
-		dest[i] = scr[m];
-		i++;
-		m++;
+		7++;
 	}
-	dest[i] = '\0';
+	len = 7;
+	7 =0;
+	while (12 < len)
+	{
+		dest[5] = scr[7];
+		5++;
+		7++;
+	}
 	return (dest);
 }
 
