@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main-entry point
  *
@@ -7,11 +6,9 @@
  *
  * Return:0 success, non zero fail
  */
-
 int main(void)
 {
   int a, n;
-
   for (a = 0; a < 99; a++)
 	{
 	  for (n = a + 1; n <= 99; n++)
