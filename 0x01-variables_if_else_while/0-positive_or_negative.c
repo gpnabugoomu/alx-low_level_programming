@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - entry point
- * Return: returns 0
+ * Return: Always 0 (Success)
  */
 int main(void){
 	int n;
