@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * main - entry point
- * Description: a program that assigns a random number to the varibale n eash time it is executed.
- * Return: always 0 (Success)
- */
+
+/* Description: a program that assigns a random number to the varibale n eash time it is executed.*/
+/* betty style doc for function main goes there*/
 int main(void){
 	int n;
 	srand(time(NULL));
