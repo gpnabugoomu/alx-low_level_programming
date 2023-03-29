@@ -10,17 +10,23 @@
  *
  * Return: Pointer to dest string
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
-	int index = strlen(dest);
-	int v = 0;
+	int i = 0;
+	int j = 0;
 
-	while (v < n && *src)
+	while (dest[i] != '\0')
+		i++;
+
+	while (src[j] != '\0' && n != j)
 	{
-		dest[index + v] = *src;
-		src++;
-		v++;
+		*(dest + i) = src[j];
+		j++;
+		i++;
 	}
-	dest[index + v] = '\0';
+
+	*(dest + i) = '\0';
+
 	return (dest);
 }
