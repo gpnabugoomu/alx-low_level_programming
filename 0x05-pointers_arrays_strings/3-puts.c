@@ -7,15 +7,13 @@
  *
  * Return: void which means our answer is correct
  */
-
 void _puts(char *str)
 {
-	char *d;
-	int n;
+	int i;
 
-	d = str;
-
-	for (n = 0; d[n]; n++)
-		_putchar (d[n]);
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
 	_putchar('\n');
 }
