@@ -7,13 +7,10 @@
  *
  * Return: void which means our answer is correct
  */
-void _puts(char *str)
+int main(void)
 {
-	int i;
-
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
-	_putchar('\n');
+	char *str;
+	str = "I do not fear computer, I fear the lack of them - Isaac Asimov";
+	_puts(str);
+	return (0);
 }
