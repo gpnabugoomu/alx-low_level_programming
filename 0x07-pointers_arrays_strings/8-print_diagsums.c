@@ -2,8 +2,8 @@
 #include  <stdio.h>
 
 /**
- * print_diagsum - Prints sum of two diagonals of a sqaure matrix
- * 		   of integers
+ * print_diagsums - Prints sum of two diagonals of a sqaure matrix
+ * of integers
  * @a: The matrix of integers
  * @size: The size of the matrix
  */
