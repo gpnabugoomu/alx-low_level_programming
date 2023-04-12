@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - a function that displays a multiplication of two numbers and a new line
+ * main - function that displays multiplication of two numbers,  new line
  * @argc: number of arguments supplied to the program.
  * @argv: array of pointers to the arguments.
  *
@@ -17,12 +17,9 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 	prod = num1 * num2;
-
 	printf("%d\n", prod);
-
 	return (0);
 }
